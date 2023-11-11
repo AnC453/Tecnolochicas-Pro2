@@ -1,0 +1,90 @@
+<!--declaracion de tipop de archivos-->
+<!DOCTYPE html>
+<!--Documento Raiz-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> App De Gatos </title>
+    <link href="style.css" rel="stylesheet">
+    <link href="link rel=" preconnect hre="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fints.gatatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=roboto:wght@100&display=swap" rel="stylesheet">
+    <!--ejemplo de elemento style-->
+    <!--este estilo se asignara/afectara a todos los elemtos h1, h3 y p-->
+    <!--
+            <style>
+                h1{
+                    color blue;
+                }
+                h3{
+                    color green;
+                }
+
+                p{
+                    color purple;
+                }
+            </style>
+            -->
+</head>
+<!--body= escritura de la pagina-->
+<body>
+    <!--crear encabezados-->
+    <h1>¡Hola, mundo!</h1><!--Nivel mas grande de encabezado-->
+    <h2>¡Hola, mundo!</h2><!--etiqueta de apertura + contenido + etiqueta de cierre-->
+    <h3>¡Hola, mundo!</h3>
+    <h4>¡Hola, mundo!</h4>
+    <h5>¡Hola, mundo!</h5>
+    <h6>¡Hola, mundo!</h6>
+
+    <!--ejemplo de estilo en linea-->
+    <!--<h1 style="color: blue;">AppDeGatos-->
+
+    <p><h1 id="titulo-app-gatos">gatos son una ternura, saben estar serca de ti si lo cren necesario,
+         ronronean cerca de tu cara o cuerpo para que tu los sientas su compañia</h1></p>
+         <p><h2>Ellos son amigos incondicionales</h2></p>
+         <p><h2>Son cariñosos</h2></p>
+         <p><h2>Pero si no cuidas su garritas te pueden lastimar sin intencion</h2></p>
+         <!--img = image, src = source-->
+         <img src="https://purina.com.mx/sites/default/files/styles/webp/public/2022-10/Que_debes_saber_antes_de_adoptar_un_gatito.jpg.webp?itok=t3EjykDK"
+          alt="gatito gris" class="bordes redondeados imgen-de-gatos">
+          <!--imagen desde internet-->
+     <img src="imagenes/lasagna.jpeg" alt="lasagna">   
+     <p>En este link <a href="https://bit.ly/3zh6lyu" target="_blank" rel="noopener noreferrer"> puedes ver mas imagenes de gatos.</a></p>
+     <!--formulario-->
+     <form action="/enviar-respuesta"> 
+        <!--texto y boton enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <br> 
+        <button type="submit">Enviar</button>
+        <!--botones de radio-->
+        <p>¿tu gato es cachorro o adulto? </p>
+        <label for="cachorro"></label>
+        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> adulto
+     </label>
+     <br>
+     <!--casillas de verificacion-->
+     <p>¿que tipo de gato es el tuyo?</p>
+     <label for="cariñoso">
+        <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad"
+        checked>cariñoso
+     </label>
+     <br>
+     <label for="perezoso" type="checkbox" value="perezoso" name="personalidad">perezoso</label>
+     <br>
+     <label for="energico"></label>
+     <input id="energico" type="checkbox" value="energico" name="personalidad">energico
+    </label>
+    <br>
+     </form>
+    </main>
+    <!--pie de pagina-->
+    <footer> 
+        <!--etiqueta small para que el pie de pagina se vea mas pequeño-->
+        <p><small>derechos de autor-<a href="https://tecnolochicas.mx/" 
+        target="_blank"></alejandra nuñez cruz></a></small></p>
+    </footer>
+    
+</body>
+</html>
